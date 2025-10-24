@@ -1,6 +1,6 @@
 services:
   kaomoji-page:
     container_name: kaomoji-page
-    build: ghcr.io/mvahaste/kaomoji-page:main
+    image: ghcr.io/mvahaste/kaomoji-page:main
     ports:
       - "8080:80"
